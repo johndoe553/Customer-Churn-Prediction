@@ -1,0 +1,60 @@
+# Python bytecode and native extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Packaging and test artefacts
+build/
+dist/
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+secrets.toml
+*.pem
+*.key
+credentials.json
+service_account*.json
+kaggle.json
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Third-party datasets are downloaded separately (see data/README.md)
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+# Model artefacts and selected evaluation outputs are intentionally versioned.
+# They are small and allow Streamlit Community Cloud to run without training.
