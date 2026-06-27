@@ -136,4 +136,4 @@ Small model artefacts in `models/` and selected evaluation outputs in `outputs/`
 
 ## Licence
 
-The original project code is licensed under the [MIT License](LICENSE). That licence does **not** apply to the third-party dataset. Dataset use remains subject to the source authors' rights and Kaggle's terms.
+No open-source licence is granted for this academic assignment. Dataset use remains subject to the source authors' rights and Kaggle's terms.

@@ -24,4 +24,4 @@ The dataset is intentionally not versioned because its Kaggle data card does not
 
 The app's prediction pages use the committed model artefacts when the CSV is absent. Dataset analytics and retraining require the CSV and display a helpful missing-data message otherwise.
 
-Dataset attribution: IBM sample data, republished by BlastChar on Kaggle. The dataset is not covered by this repository's MIT licence.
+Dataset attribution: IBM sample data, republished by BlastChar on Kaggle. The dataset is governed separately by the source authors' rights and Kaggle's terms.
