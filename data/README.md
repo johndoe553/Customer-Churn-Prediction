@@ -1,14 +1,12 @@
 # Dataset setup
 
-The dataset is intentionally not versioned because its Kaggle data card does not state a clear licence permitting public redistribution.
+This repository includes the required CSV dataset to enable reproducible training and deployed Streamlit analytics:
 
-1. Download [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) from Kaggle using your own account and acceptance of its terms.
-2. Extract the archive.
-3. Copy the CSV to this exact path:
+```text
+data/WA_Fn-UseC_-Telco-Customer-Churn.csv
+```
 
-   ```text
-   data/WA_Fn-UseC_-Telco-Customer-Churn.csv
-   ```
+Source attribution: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) on Kaggle.
 
 4. From the repository root, regenerate the deployment artefacts:
 
@@ -22,6 +20,6 @@ The dataset is intentionally not versioned because its Kaggle data card does not
    streamlit run app.py
    ```
 
-The app's prediction pages use the committed model artefacts when the CSV is absent. Dataset analytics and retraining require the CSV and display a helpful missing-data message otherwise.
+The app's prediction pages, dataset analytics, and in-app retraining use the tracked CSV file.
 
 Dataset attribution: IBM sample data, republished by BlastChar on Kaggle. The dataset is governed separately by the source authors' rights and Kaggle's terms.

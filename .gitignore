@@ -56,5 +56,8 @@ data/*.csv
 data/*.xlsx
 data/*.zip
 
+# Keep the required project training dataset in Git
+!data/WA_Fn-UseC_-Telco-Customer-Churn.csv
+
 # Model artefacts and selected evaluation outputs are intentionally versioned.
 # They are small and allow Streamlit Community Cloud to run without training.

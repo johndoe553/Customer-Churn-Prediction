@@ -49,13 +49,13 @@ Customer-Churn-Prediction/
 
 ## Dataset
 
-This project uses the **Telco Customer Churn** sample dataset attributed to IBM and distributed on Kaggle by BlastChar. The Kaggle data card marks the files as copyrighted by their original authors and does not provide a clear redistribution licence, so the CSV is intentionally excluded from this repository.
+This project uses the **IBM Telco Customer Churn** dataset distributed through Kaggle.
+The required CSV is included in this repository to enable reproducible training and the deployed Model Training page.
 
-1. Download the dataset from [Kaggle: Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
-2. Extract `WA_Fn-UseC_-Telco-Customer-Churn.csv`.
-3. Place it at exactly `data/WA_Fn-UseC_-Telco-Customer-Churn.csv`.
+- **Expected dataset path:** `data/WA_Fn-UseC_-Telco-Customer-Churn.csv`
+- **Source attribution:** [https://www.kaggle.com/datasets/blastchar/telco-customer-churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-The records describe a fictional telecom company, but users remain responsible for complying with Kaggle's terms and the source dataset's rights. See [data/README.md](data/README.md).
+The dataset is used for academic and demonstration purposes. Users should consult the original source and applicable terms before reuse. See [data/README.md](data/README.md).
 
 ## Installation
 
@@ -109,7 +109,7 @@ All application paths are derived from the repository root, so no local machine 
 3. Select branch `main` and entry point `app.py`.
 4. Deploy without adding secrets; this project does not require any.
 
-The committed model artefacts allow customer prediction without the raw dataset. Dataset Analytics and in-app retraining show a clear message until the CSV is supplied. Community Cloud does not provide a durable mechanism for manually uploading this CSV into a public deployment; if those pages are required, use a data source whose licence explicitly permits redistribution or host the application in an environment where the dataset can be provisioned lawfully.
+The deployed Streamlit application can support prediction, analytics, model performance, explainability, and controlled in-app model training. The dataset is tracked in Git, ensuring all pages function automatically on Community Cloud.
 
 ## Screenshots
 
